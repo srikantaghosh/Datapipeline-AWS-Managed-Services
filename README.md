@@ -3,7 +3,7 @@
 ### This project implements a robust and efficient data pipeline in the AWS cloud environment to process and store customer invoice data. The system is designed to automatically manage data ingestion, transformation, storage, and querying processes using various AWS services.
 
 ### Architecture
-![Architecture](Screenshot 2023-07-09 at 8.51.14 PM.png)
+![Architecture](https://github.com/srikantaghosh/Datapipeline-AWS-Managed-Services/blob/main/Screenshot%202023-07-09%20at%208.51.14%20PM.png)
 
 1. **Amazon S3**: The pipeline starts with the customer uploading invoice data, in text format, to an Amazon S3 bucket. This S3 bucket serves as the initial data landing zone and is configured with a lifecycle policy to automatically delete any content that is older than 24 hours. This ensures that only the most recent data is kept in the bucket, preserving storage space and maintaining data freshness.
 
